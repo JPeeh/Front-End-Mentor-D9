@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;900&family=Outfit:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Page1.css">
+  
+  <title>Frontend Mentor | Art gallery website</title>
+</head>
+<body>
+  <div class="container_top_content">
+    <div class="maxWidth col">
+      <div class="top_content">
+        <h1>Modern Art Gallery</h1>
+
+        <div class="container_p-b">
+          <p>The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.</p>
+      
+          <div class="btn">
+            <a href="location.html" class="text">our locaction</a>
+            <a href="location.html" class="seta"><img src="./assets/icon-arrow-right.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_img">
+        <img src="./assets/desktop/image-hero.jpg" alt="" srcset="./assets/desktop/image-hero@2x.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="container_main_content">
+    <div class="maxWidth main_content">
+      <div class="first_main_content">
+        <div class="content">
+          <h2>Your Day at the Gallery</h2>
+          <p>Wander through our distinct collections and find new insights about our artists. Dive into the 
+            details of their creative process. </p>
+        </div>
+
+        <picture>
+          <source media="(min-width: 901px)" 
+          srcset="./assets/desktop/image-grid-1.jpg 635w" sizes="40vw">
+
+          <source media="(max-width: 900px)" srcset="./assets/tablet/image-grid-1@2x.jpg" sizes="10vw">
+
+          <img src="./assets/desktop/image-grid-1.jpg" alt="" srcset="./assets/tablet/image-grid-1@2x.jpg">
+        </picture>
+      </div>
+
+      <div class="section_images">
+        <div class="image-grid-1">
+          <img src="./assets/desktop/image-grid-2.jpg" alt="" srcset="./assets/desktop/image-grid-2@2x.jpg">
+        </div>
+
+        <div class="container_2images">
+          <picture>
+            <source media="(min-width: 901px)" 
+            srcset="./assets/desktop/image-grid-3.jpg 635w" sizes="40vw">
+  
+            <source media="(max-width: 900px)" srcset="./assets/tablet/image-grid-3@2x.jpg" sizes="10vw">
+
+            <source media="(max-width: 720px)" srcset="./assets/mobile/image-grid-3.jpg" sizes="10vw">
+  
+            <img src="./assets/desktop/image-grid-3.jpg" alt="" srcset="./assets/tablet/image-grid-3@2x.jpg">
+          </picture>
+          
+          <div class="content_images">
+            <h2>Come & be inspired</h2>
+
+            <p>We’re excited to welcome you to our gallery and see how our collections influence you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container_footer">
+    <div class="maxWidth footer">
+      <h3>Modern Art Gallery</h3>
+      <p>The Modern Art Gallery is free to ail visitors and open seven days a week from 8am to 9pm. Finda
+        us at 99 King Street, Newport, USA.
+      </p>
+      <div class="container_icons">
+        <a href=""><img src="./assets/icon-facebook.svg" alt=""></a> 
+        <a href=""><img src="./assets/icon-instagram.svg" alt=""></a> 
+        <a href=""><img src="./assets/icon-twitter.svg" alt=""></a> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
